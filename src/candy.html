@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8 ">
+    <link rel="stylesheet " href="css/styles.css?v=1">
+    <link rel="stylesheet " href="css/normalize.css ">
+    <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css ">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js "></script>
+    <link rel="stylesheet " href="https://use.fontawesome.com/releases/v5.5.0/css/all.css "
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU " crossorigin="anonymous ">
+    <title>Menu</title>
+</head>
+
+<body>
+    <header>
+        <div class="topbar">
+            <div class="btntc">
+                <button class="menubtn" id="btnback2">Regresar</button>
+            </div>
+            <div class="btntc">
+                <button class="menubtn" id="btnbackl2">Limpiar</button>
+            </div>
+            <div>
+                <center>
+                    <p>Dulceria</p>
+                </center>
+            </div>
+            <div>
+                <h2>Total: <input style="color: black;" disabled id="total"></h2>
+            </div>
+        </div>
+    </header>
+    <div class="modalss">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Carrito</h2>
+                </div>
+                <div id="tiket" class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button class="venta" id="cventa">confirmar venta</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <section id="planes" clasS="main-productos">
+        <div class="productos--title">
+            <h2>Comida</h2>
+        </div>
+        <section id="productos_contenedor_c" class="productos-contenedor-s">
+        </section>
+        <div class="productos--title">
+            <h2>Bebidas</h2>
+        </div>
+        <section id="productos_contenedor_b" class="productos-contenedor-s">
+        </section>
+        <div class="productos--title">
+            <h2>Combos</h2>
+        </div>
+        <section id="productos_contenedor_k" class="productos-contenedor-s">
+        </section>
+    </section>
+    <footer class="topbar2">
+        <button clasS="venta2" id="modald">Venta</button>
+    </footer>
+</body>
+<script src="./tiendad.js "></script>
+
+</html>

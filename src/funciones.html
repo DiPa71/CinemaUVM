@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Funciones</title>
+</head>
+
+<div class="draggable-area">
+</div>
+
+<body>
+    <div class="flexs">
+        <div class="formizq">
+            <div class="form">
+                <label class="label"> Tipo de Funcion:</label>
+                <select id="fucntype" required>
+                  <option value="" disabled selected>-- Funcion --</option>
+                  <option value="1">Normal</option>
+                  <option value="2">Infantil</option>
+                  <option value="3">3D</option>
+                </select>
+                <label class="label"> Sala:</label>
+                <select id="opcsalas" required>
+                    <option value="" disabled selected>-- Salas --</option>
+                  </select>
+                <label class="label"> Pelicula:</label>
+                <select id="peliculasopc" required>
+                    <option value="" disabled selected>-- Peliculas --</option>
+                  </select>>
+                <label class="label"> Fecha:</label>
+                <input type="date" id="Fecha" placeholder="Fecha" required>
+                <label class="label"> Hora de inicio:</label>
+                <input type="time" id="Hora" placeholder="Hora" required><br>
+                <div class="flexs centerbox">
+                    <button type="submit" class="menubtn a" id="btnback">Cancelar</button>
+                    <button type="submit" class="menubtn a" id="btn">Aceptar</button>
+                </div>
+            </div>
+        </div>
+        <div class="tabless">
+            <table class="table table-hover table-light-dark text-center">
+                <thead class="thead">
+                    <tr>
+                        <th>Pelicula</th>
+                        <th>Hora de inicio</th>
+                        <th>Tipo</th>
+                        <th><i class="fas fa-trash-alt"></i></th>
+                    </tr>
+                </thead>
+                <tbody id="listfunc">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="./funciones.js"></script>
+
+</html>

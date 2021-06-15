@@ -1,0 +1,1103 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    display: block;
+}
+
+body {
+    background-color: red;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+button:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+button:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+body {
+    display: block;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    min-width: 100vh;
+    background-color: transparent;
+}
+
+.logo-menu {
+    width: 15rem;
+    height: 16rem;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 10rem;
+    height: 12rem;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.icon2 {
+    width: 13rem;
+    height: 10rem;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+.forms-menu {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.292);
+    background-image: url(../img/triangle-2724449.png);
+    background-position: center center;
+    background-size: cover;
+    width: 40%;
+}
+
+.forms {
+    width: 30%;
+}
+
+.forms .form,
+.forms-menu .form {
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.forms .form .label,
+.forms-menu .form .label {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+#descripcion {
+    max-height: 13rem;
+    min-height: 10rem;
+    max-width: 97%;
+    min-width: 97%;
+    width: 97%;
+    height: 10rem;
+}
+
+.textarea-n {
+    max-height: 33rem;
+    min-height: 30rem;
+    max-width: 97%;
+    min-width: 97%;
+    width: 97%;
+    height: 30rem;
+}
+
+.flexs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgload {
+    width: 35rem;
+    height: 30rem;
+    position: sticky;
+    background-image: url(../img/load.gif);
+    background-position: center center;
+    background-size: cover;
+}
+
+.draggable-area-loading {
+    width: 35rem;
+    height: 30rem;
+    background-color: transparent;
+    -webkit-app-region: drag;
+    margin-bottom: -2rem;
+    z-index: 5;
+}
+
+.imgbk-menu {
+    width: 60%;
+    background-image: url(../img/menu.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 3rem;
+}
+
+.imgbk {
+    width: 70%;
+    background-image: url(../img/cin.gif);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 3rem;
+}
+
+.forms .form input,
+.forms-menu .form input {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-style: bold;
+    border-radius: 10rem;
+    margin-top: 2rem;
+    Padding: .8rem
+}
+
+.forms .form select {
+    width: 80%;
+    color: #000;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-style: bold;
+    border-radius: 10rem;
+    margin-top: 2rem;
+    Padding: .8rem
+}
+
+#eye {
+    background: transparent;
+    color: rgb(7, 7, 7);
+    margin: 5.9px 0 0 0;
+    margin-left: -20px;
+    padding: 15px 9px 19px 0px;
+    border-radius: 0px 5px 5px 0px;
+    float: right;
+    position: relative;
+    right: -21rem;
+    top: -5.2rem;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.menubtn {
+    margin-top: 2rem;
+    margin: 0 auto;
+    width: 70%;
+    color: #ffffff;
+    background: linear-gradient(to left, transparent 50%, rgba(255, 255, 255, 0.30) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    border-width: .1rem;
+    border-color: #c5c5c5;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05em;
+}
+.menubtn4 {
+    position: relative;
+    margin-top: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    color: #ffffff;
+    background: linear-gradient(to left, transparent 50%, rgba(255, 255, 255, 0.30) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    border-width: .1rem;
+    border-color: #c5c5c5;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05em;
+}
+
+.menubtn4:hover {
+    border-width: .1rem;
+    color: rgb(0, 0, 0);
+    border-color: #b1b1b1;
+    background-position: left bottom;
+}
+.menubtn:hover {
+    border-width: .1rem;
+    color: rgb(0, 0, 0);
+    border-color: #b1b1b1;
+    background-position: left bottom;
+}
+.menubtn2 {
+    margin-top: 2rem;
+    margin: 0 auto;
+    width: 70%;
+    color: #ffffff;
+    background: linear-gradient(to left, transparent 50%, rgba(255, 255, 255, 0.30) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    border-width: .1rem;
+    border-color: #c5c5c5;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05em;
+}
+
+.menubtn2:hover {
+    border-width: .1rem;
+    color: rgb(0, 0, 0);
+    border-color: #b1b1b1;
+    background-position: left bottom;
+}
+
+#modald2{
+    margin-top: 2rem;
+    margin: 0 auto;
+    width: 70%;
+    color: #ffffff;
+    background: linear-gradient(to left, transparent 50%, rgba(255, 255, 255, 0.30) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    border-width: .1rem;
+    border-color: #c5c5c5;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05em;
+    float: right;
+} 
+#modald2:hover{
+    border-width: .1rem;
+    color: rgb(0, 0, 0);
+    border-color: #b1b1b1;
+    background-position: left bottom;
+}
+#modald{
+    margin-top: 2rem;
+    margin: 0 auto;
+    width: 70%;
+    color: #ffffff;
+    background: linear-gradient(to left, transparent 50%, rgba(255, 255, 255, 0.30) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    border-width: .1rem;
+    border-color: #c5c5c5;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05em;
+    float: right;
+} 
+#modald:hover{
+    border-width: .1rem;
+    color: rgb(0, 0, 0);
+    border-color: #b1b1b1;
+    background-position: left bottom;
+}
+
+
+.thead {
+    position: sticky;
+}
+
+.draggable-area {
+    width: 100%;
+    height: 2rem;
+    background-color: transparent;
+    -webkit-app-region: drag;
+    margin-bottom: -2rem;
+    z-index: 5;
+}
+
+.formizq {
+    margin: 0 auto;
+    box-shadow: 0 0.8rem 1.6rem 0 rgba(22, 22, 22, 0.555);
+    background-image: url(../img/triangle-2724449.png);
+    background-position: center center;
+    background-size: cover;
+    height: 72rem;
+    width: 30%;
+    padding: 2rem;
+}
+
+.formizq .label {
+    text-align: left;
+    padding-top: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.formizq input,
+.formizq select {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 3.5rem;
+    font-size: 1.3rem;
+    font-style: bold;
+    margin-bottom: 1rem;
+    Padding: .8rem;
+    border-radius: 2rem;
+}
+
+.none {
+    display: none;
+}
+
+.a {
+    margin-top: 5rem;
+}
+
+#btnback {
+    margin-right: 5rem;
+}
+
+.centerbox {
+    margin: 0 auto;
+}
+
+.modal-content input,
+select {
+    color: hsl(0, 0%, 0%);
+    width: 95%;
+    font-size: 1rem;
+    font-style: bold;
+    border-radius: 10rem;
+    margin-top: 1rem;
+    Padding: .8rem;
+}
+
+.cli:hover {
+    color: rgba(255, 60, 60, 0.571)
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    height: 72rem;
+}
+.tabless2{
+    text-align: center;
+    overflow-y: auto;
+    width: 100%;
+    height: 72rem;
+}
+.tabless2 thead {
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(148, 46, 46);
+    color: white;
+    position: sticky;
+    top: 0;
+    width: 60%;
+}
+.tabless2 th{
+    text-align: center;
+}
+.tabless {
+    text-align: center;
+    overflow-y: auto;
+    width: 70%;
+    height: 72rem;
+}
+
+.tabless thead th {
+    text-align: center;
+    background-color: rgb(148, 46, 46);
+    color: white;
+    position: sticky;
+    top: 0;
+    width: 60%;
+}
+
+#myBtn:hover {
+    border-width: .1rem;
+    color: rgb(0, 0, 0);
+    border-color: #b1b1b1;
+    background-position: left bottom;
+}
+
+.btnlog {
+    display: inline-block;
+    color: #ffffff;
+    background: rgb(255, 60, 60);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    margin-top: -10rem;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin: 0 auto;
+    letter-spacing: 0.05em;
+}
+
+.form-group .label {
+    color: white;
+}
+
+.btnlog:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+.contenedor-top {
+    width: 85%;
+}
+
+.modal {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    width: 40%;
+}
+
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(151, 151, 151);
+    border-radius: 5rem;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 100, 100);
+}
+
+.modal-content form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.btn-ins {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.modal-content label {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: #000;
+}
+
+
+/*tabla que scrolea*/
+
+.modal-header,
+h4,
+.close {
+    height: auto;
+    background-color: #ae0000aa;
+    color: white !important;
+    text-align: center;
+    font-size: 2rem;
+    background-image: url(../img/triangle-2724449.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+#btn:hover,
+#myBtn:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+.leftside {
+    width: 60%;
+    height: 72rem;
+    display: block;
+}
+
+.imgmenu {
+    width: 60%;
+    background-image: url(../img/menu.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 3rem;
+}
+
+.c {
+    padding-right: 2rem;
+}
+
+.htmlmenu {
+    height: 72rem;
+    min-height: 72rem;
+}
+
+.logintext {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.card-body {
+    padding: .5rem;
+}
+
+.card {
+    height: 5rem;
+    background-color: rgba(255, 30, 0, 0.217);
+    border-radius: 1.5rem;
+    color: #fff;
+    border: .2rem solid rgba(0, 0, 0, 0.245);
+    font-size: 2rem;
+    margin-left: 28rem;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.menusbtn {
+    margin-top: 30rem;
+    margin-left: 4rem;
+    float: left;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    background-image: url(../img/triangle-2724449.png);
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    position: sticky;
+    width: 100%;
+    background-image: url(../img/triangle-2724449.png);
+    z-index: 5;
+    height: 6rem;
+}
+
+.topbar p {
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+.topbar3{
+    position: relative;
+    color: #fff;
+    width: 100%;
+    background-image: url(../img/triangle-2724449.png);
+    z-index: 5;
+    height: 6rem;
+}
+.topbar3 h3{
+    position: absolute;
+    left: calc(50% - 100px);
+    top: -20px;
+}
+.topbar3 h4{
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    font-size: 18px;
+}
+
+.contenedoe-header-btn-1{
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contenedoe-header-btn-2{
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.topbar2 {
+    display: flex;
+    color: #fff;
+    position: sticky;
+    width: 100%;
+    background-image: url(../img/triangle-2724449.png);
+    z-index: 5;
+    height: 6rem;
+}
+
+.topbar2 p {
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.btntc {
+    padding-left: 1rem;
+    padding-top: .5rem;
+    width: 10%;
+}
+
+.menusbtn button {
+    width: 40%;
+}
+
+.load-b {
+    border: .5rem solid rgba(0, 0, 0, 0.2);
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    border-left-color: rgb(119, 231, 125);
+    animation: spin .8s ease infinite;
+    float: inline-end;
+    margin: 0 auto;
+    left: 1.7srem;
+    top: 25rem;
+    position: relative;
+    z-index: 3;
+}
+
+.test{
+    background-image: url(../img/mexas.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*productos*/
+
+.productos-contenedor-s {
+    display: flex;
+    gap: 20px;
+    height: 320px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 0 auto;
+    overflow-x: scroll;
+    background: rgba(97, 97, 97, 0.322);
+    overflow-y: none;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.main-productos {
+    width: 100%;
+    min-width: 320px;
+    text-align: center;
+    background-color: var(--loff-white);
+}
+
+.productos--title {
+    background-color: #da898c;
+    background-image: linear-gradient(147deg, #da898c 0%, #59090c 74%);
+    border-top: 3px solid rgba(17, 17, 17, 0.5);
+    border-bottom: 3px solid rgba(17, 17, 17, 0.5);
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.planes--title h2 {
+    padding-top: 3rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    line-height: 2.6rem;
+}
+
+.planes--title p {
+    padding-top: 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+
+.productos-contenedor--card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 25rem;
+    margin: 20px 20px 0;
+    padding: 0 15px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(37, 37, 37, 0.144);
+}
+
+.reco {
+    width: 12rem;
+    height: 3.1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.productos-contenedor--title {
+    padding-top: 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--negro);
+}
+
+.panes-body {
+    border-radius: 3rem;
+}
+
+.planes-card--img {
+    width: 15rem;
+    height: 10rem;
+}
+
+.planes-card--price span {
+    font-size: 1.2rem;
+    line-height: 5.3rem;
+    font-weight: 300;
+}
+
+.planes-card--saving {
+    font-size: 1.2rem;
+    color: #757575;
+}
+
+.planes-card--action {
+    width: 15rem;
+    height: 4.8rem;
+    margin-top: 2rem;
+    background-color: #fff;
+    border: 2px solid var(--amarillo);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--negro);
+}
+
+.planes-card--action span {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url("../img/icon9.png");
+    background-position: center;
+    background-size: cover;
+    vertical-align: text-bottom;
+}
+
+
+/*-------------------*/
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+
+/*modal*/
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+/* Add Animation */
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+/* The Close Button */
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-body {
+    position: relative;
+    overflow-y:scroll;
+    padding: 2px 16px;
+    max-height: 400px;
+    min-height: 100px;
+}
+
+.modal-footer {
+    height: auto;
+    background-color: #ae0000aa;
+    color: white !important;
+    text-align: center;
+    font-size: 2rem;
+    background-image: url(../img/triangle-2724449.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.venta {
+    margin: 0 auto;
+    width: 30%;
+    color: #ffffff;
+    background: linear-gradient(to left, transparent 50%, rgba(238, 122, 122, 0.3) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border-radius: 1.5rem;
+    padding: .2rem;
+    border-width: .1rem;
+    border-color: #c5c5c5;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05em;
+}
+
+.venta:hover {
+    border-width: .1rem;
+    color: rgb(0, 0, 0);
+    border-color: #b1b1b1;
+    background-position: left bottom;
+}
+
+.venta2 {
+    margin: 0 auto;
+    width: 30%;
+    color: #ffffff;
+    background: linear-gradient(to left, transparent 50%, rgba(238, 122, 122, 0.3) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border-radius: 1.5rem;
+    padding: .2rem;
+    border-width: .1rem;
+    border-color: #c5c5c5;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05em;
+}
+.venta2:hover {
+    border-width: .1rem;
+    color: rgb(0, 0, 0);
+    border-color: #b1b1b1;
+    background-position: left bottom;
+}
+
+#n_sala {
+    margin: 0 auto;
+}
+
+.lable-chair {
+    position: relative;
+}
+
+.span {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: calc(50% - 16px);
+    bottom: 5rem;
+}
+
+.chair-img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.asientos {
+    position: relative;
+}
+
+.pantalla {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 64rem);
+    width: 100%;
+    height: 4rem;
+    background-color: black;
+}
+
+.pantalla h5 {
+    text-align: center;
+    color: blanchedalmond;
+    margin: o auto;
+}
+
+
+/*sillas*/
+
+input[type="checkbox"][id^="cb"] {
+    display: none;
+}
+
+.check {
+    display: none;
+}
+
+label {
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+label::before {
+    background-color: rgb(245, 81, 81);
+    color: rgb(130, 240, 120);
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid rgba(128, 128, 128, 0);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+label img {
+    height: 100px;
+    width: 100px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+}
+
+ :checked+label::before {
+    content: "✓";
+    border: 1px solid #000;
+    background-color: rgba(111, 209, 96, 0.349);
+    transform: scale(1);
+}
+
+ :checked+label img {
+    transform: scale(0.9);
+    box-shadow: 0 0 5px rgba(51, 51, 51, 0.281);
+    z-index: -1;
+}
+#input-modal2,
+#precio-boleto
+{
+    width: 60%;
+    height: 60px;
+    font-size: 20px;
+}
+.none2{
+    display:none;
+}
+.tr2{
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+}
+.pf{
+    background-color: #ff0109b8;
+    border-radius: 3rem;
+}

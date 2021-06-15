@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8 ">
+    <link rel="stylesheet " href="css/styles.css?v=1">
+    <link rel="stylesheet " href="css/normalize.css ">
+    <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css ">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js "></script>
+    <link rel="stylesheet " href="https://use.fontawesome.com/releases/v5.5.0/css/all.css "
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU " crossorigin="anonymous ">
+    <title>Menu</title>
+</head>
+<div class="draggable-area">
+</div>
+
+<body>
+    <header class="topbar3">
+        <div class="contenedoe-header-btn-1">
+            <button class="menubtn4" id="btn-cancelar-asientos">
+                Cancelar
+            </button>
+        </div>
+        <div id="n_sala">
+        </div>
+        <div class="contenedoe-header-btn-2">
+            <button clasS="venta2" id="modald">Siguiente</button>
+        </div>
+    </header>
+    <section id="section">
+        <div class="pantalla">
+            <h5>pantalla</h5>
+        </div>
+        <div id="asientos">
+
+        </div>
+    </section>
+    <div class="modalss">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Metodo de pago</h2>
+                </div>
+                <div id="tiket" class="modal-body">
+                    <label id="input-modal2" for="precio">
+                        <span>Precio a cobrar:</span>
+                        <input style="color: black;" disabled id="precio-boleto">
+                    </label>
+                    <br>
+                    <label id="input-modal2" for="metodo"><span>Metodo de pago:</span>
+                        <select id="metodo">
+                            <option disabled selected>-- Seleccione metodo --</option>
+                            <option>Efectivo</option>
+                            <option>Tarjeta debito</option>
+                            <option>Tarjeta credito</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="modal-footer">
+                    <button class="menubtn4" id="btn-venta">
+                        Continuar venta
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="./asientos.js "></script>
+
+</html>

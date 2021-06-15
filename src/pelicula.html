@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Peliculas</title>
+</head>
+<div class="draggable-area">
+</div>
+
+<body>
+    <div class="flexs">
+        <div class="formizq">
+            <div class="form">
+                <label class="label" for="pelicula">Nombre pelicula:</label>
+                <input type="text" placeholder="Nombre" id="pelicula" class="" required>
+                <label class="label" for="sinopsis">Sinopsis</label>
+                <textarea class="textarea-n" id="sinopsis" placeholder="Reseña de pelicula..." required></textarea>
+                <label class="label" for="duracion">Duracion</label>
+                <input type="number" placeholder="Duracion en minutos" id="duracion" class="" required>
+                <br>
+                <div class="flexs centerbox">
+                    <button type="submit" class="menubtn a" id="btnback">Regresar</button>
+                    <button type="submit" class="menubtn a" id="btn">Aceptar</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="tabless">
+            <table class="table table-hover table-light-dark text-center">
+                <thead class="thead">
+                    <tr>
+                        <th width="30%">Nombre</th>
+                        <th width="10%">Duracion</th>
+                        <th width="10%"><i class="fas fa-trash-alt"></i></th>
+                    </tr>
+                </thead>
+                <tbody id="mylist">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="./pelicula.js"></script>
+
+</html>

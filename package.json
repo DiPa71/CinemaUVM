@@ -1,0 +1,39 @@
+{
+    "name": "CinemaUVM",
+    "version": "1.0.0",
+    "description": "Aplicacion de administracion de boletos,cafeteria,ventas de CinemaUVM",
+    "main": "src/main.js",
+    "scripts": {
+        "start": "electron .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
+    },
+    "repository": "",
+    "keywords": [
+        "Electron",
+        "CinesUVM",
+        "javascript",
+        "CinemaUVM",
+        "demo"
+    ],
+    "author": "Avocados Network",
+    "license": "CC0-1.0",
+    "devDependencies": {
+        "devtron": "^1.4.0",
+        "electron": "^12.0.7",
+        "electron-builder": "^22.10.5"
+    },
+    "dependencies": {
+        "jquery": "^3.6.0",
+        "mysql": "^2.18.1"
+    },
+    "build": {
+        "appId": "com.avocadosnetwor.cinemauvm.app",
+        "nsis": {
+            "oneClick": false,
+            "perMachine": false,
+            "allowToChangeInstallationDirectory": true,
+            "allowElevation": true
+        }
+    }
+}
